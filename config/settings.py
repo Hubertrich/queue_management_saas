@@ -37,6 +37,18 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # QueueSaaS apps
+    'apps.accounts',
+    'apps.clients',
+    'apps.queues',
+    'apps.displays',
+    'apps.customers',
+    'apps.appointments',
+    'apps.notifications',
+    'apps.analytics',
+    'apps.billing',
+    'apps.api',
 ]
 
 MIDDLEWARE = [
